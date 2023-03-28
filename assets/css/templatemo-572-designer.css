@@ -1,0 +1,231 @@
+body {
+    font-family: 'Arima Madurai', cursive;
+}
+
+.expanded {
+    max-width: 1320px;
+}
+
+@media (min-width: 768px) {
+    .expanded {
+        width: 100%;
+        overflow: hidden;
+        max-width: 100%;
+        padding: 0px 7%;
+    }
+}
+
+.accordion-item {
+    border: none;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #7a7a7a;
+}
+
+button.main-button {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #7c3200;
+    padding: 11px 25px;
+    border-radius: 7.5px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+button.main-button:hover {
+    background-color: #2a2a2a;
+}
+
+.primary-button a {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #7c3200;
+    padding: 11px 25px;
+    border-radius: 7.5px;
+    display: inline-block;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.primary-button a:hover {
+    background-color: #2a2a2a;
+}
+
+.white-button a {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #ff565b;
+    background-color: #ffffff;
+    padding: 11px 25px;
+    border-radius: 7.5px;
+    display: inline-block;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.white-button a:hover {
+    color: #ffffff;
+    background-color: orangered;
+}
+
+section {
+    margin-top: 00px;
+    padding-top: 60px;
+}
+
+@media (min-width: 576px) {
+    section {
+        margin-top: 0px;
+        padding-top: 60px;
+    }
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading h2 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #2a2a2a;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+
+@media (min-width: 576px) {
+    .section-heading h2 {
+        font-size: 34px;
+        line-height: 48px;
+        text-transform: uppercase;
+        letter-spacing: auto;
+    }
+}
+
+.section-heading h2 em {
+    color: orangered;
+    font-style: normal;
+    padding-left: 100px;
+    position: relative;
+}
+
+.section-heading h2 em::before {
+    width: 80px;
+    height: 2px;
+    background-color: orange;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+
+section.interior-design .left-image {
+    margin-right: 0;
+}
+
+@media (min-width: 992px) {
+    section.interior-design .left-image {
+        margin-right: 50px;
+    }
+}
+
+section.interior-design .left-image img {
+    border-radius: 7.5px;
+}
+
+section.interior-design .right-content {
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+    section.interior-design .right-content {
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+}
+
+section.interior-design .right-content h4 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+section.interior-design .right-content .accordion-button {
+    padding: 30px 0px;
+    border-bottom: 1px solid #eeeeee;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    font-size: 17px;
+    background-color: transparent;
+    color: #2a2a2a;
+}
+
+section.interior-design .right-content .accordion-button:not(.collapsed) {
+    color: #2a2a2a;
+    border-bottom: none;
+    background-color: transparent;
+}
+
+section.interior-design .right-content .accordion-button:focus {
+    border: none;
+    z-index: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+section.interior-design .right-content .accordion-button:not(.collapsed)::after {
+    background-image: auto !important;
+}
+
+section.interior-design .right-content .accordion-button::after {
+    color: #2a2a2a;
+}
+
+section.interior-design .right-content .accordion-collapse {
+    border: none;
+}
+
+section.interior-design .right-content .accordion-body {
+    padding: 0px 0px 30px 0px;
+    border-bottom: 1px solid #eeeeee;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
