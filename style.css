@@ -65,7 +65,7 @@ button.white {
 button.normal {
     font-size: 14px;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 15px 30px 13px 30px;
     color: orangered;
     background-color: #fff;
     border-radius: 5px;
@@ -177,7 +177,7 @@ body {
     background-color: transparent;
     color: orangered;
     border: none;
-    padding: 14px 80px 14px 65px;
+    padding: 14px 65px 14px 50px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
@@ -215,7 +215,7 @@ body {
 
 #feature .fe-box h6 {
     display: inline-block;
-    padding: 9px 8px 6px 8px;
+    padding: 6px 8px 6px 8px;
     line-height: 1;
     border-radius: 5px;
     color: coral;
@@ -810,6 +810,10 @@ footer .copyright {
     border-radius: 5px;
     color: #fff;
     font-weight: 600;
+}
+
+#pagination a:focus {
+    background-color: coral;
 }
 
 #pagination a i {
